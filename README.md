@@ -31,6 +31,7 @@ This project investigates historical order data to model and predict preparation
 
 ## Project Structure
 
+```text
 foodprep_project/
 │
 ├── dataset/
@@ -41,18 +42,39 @@ foodprep_project/
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
+```
 
 ## Environment Setup
 
 Clone the repository
 
-```
+```bash
 git clone https://github.com/raghadkibrahim/food_prep_prediction.git
 cd food_prep_prediction
 ```
 
 Create and activate conda environment
-```
+
+```bash
 conda create -n foodprep_project python=3.11
 conda activate foodprep_project
 ```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Current Progress
+
+- [x] Repository setup
+- [x] Environment setup
+- [x] Initial EDA notebook
+- [x] Data cleaning
+- [x] Feature engineering
+- [ ] Baseline model
+- [ ] Model evaluation
+- [ ] Model optimization
+- [ ] Deployment experimentation
+
